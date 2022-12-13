@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.logoWrapper > img {
+	height: 100px;
+	width: 150px;
+	object-fit: contain;
+	cursor: pointer;
+}
+
+.logoWrapper > img:hover {
+	filter: saturate(200%);
+}
+
+.navBtns {
+	margin-top: 30px;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	font-size: 18px;
+	height: 35px;
+}
+
+.navBtns > li {
+	cursor: pointer;
+	padding: 10px 15px;
+	border-radius: 10px;
+	/* font-weight: 600; */
+}
+
+.actionBtn {
+	background-color: green;
+	color: white;
+	font-weight: 600;
+}
