@@ -4,6 +4,7 @@ const exitBtn = document.querySelector('.fa-times');
 
 menuBtn.addEventListener('click', () => {
 	menu.style.right = 0;
+	document.body.style.overflowY = 'none';
 });
 
 exitBtn.addEventListener('click', () => {
