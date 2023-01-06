@@ -135,3 +135,30 @@ body {
 		width: 100vw;
 	}
 }
+
+.aboutContent {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 6vw;
+}
+
+.ulTitle {
+	list-style-type: none;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.aboutULs {
+	margin-bottom: 15px;
+}
+
+.aboutIntroText {
+	margin-bottom: 20px;
+}
+
+.aboutSecText {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
