@@ -102,6 +102,7 @@ body {
 	}
 
 	.navBtns {
+		z-index: 100;
 		transition: 0.3s;
 		flex-direction: column;
 		position: absolute;
@@ -161,4 +162,56 @@ body {
 .aboutSecText {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.socials {
+	position: absolute;
+	bottom: 30px;
+	display: flex;
+	gap: 20px;
+	outline: 1px solid black;
+	padding: 7px 20px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.664);
+	z-index: -1;
+}
+
+.soc {
+	font-size: 22px;
+}
+
+.soc:hover {
+	color: brown;
+}
+
+.aboutSoc {
+	position: fixed;
+	z-index: 0;
+	margin-left: 40px;
+}
+
+.gallImages {
+	padding: 30px 10vw;
+}
+
+.gallPic {
+	height: 50vh;
+	width: 80vw;
+	object-fit: contain;
+}
+
+.productsContent {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10vw;
+}
+
+.prodIntroText {
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.paymentMethods {
+	margin-bottom: 70px;
 }
