@@ -116,25 +116,26 @@ body {
 		/* outline: 1px solid black; */
 	}
 
-	.homeImg {
-		z-index: -1;
-		position: absolute;
-		bottom: 0;
-		width: 100vw;
-		-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
-	}
-
+	
 	.picsDiv {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
-
+	
 	.pic {
 		width: 100vw;
 	}
+}
+
+.homeImg {
+	z-index: -1;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+	mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
 .aboutContent {
@@ -214,4 +215,40 @@ body {
 
 .paymentMethods {
 	margin-bottom: 70px;
+}
+
+#quoteForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10vw;
+}
+
+.contactForward {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#fname, #fmail {
+	width: 250px;
+	height: 25px;
+	margin-bottom: 15px;
+	border-radius: 7px;
+}
+
+#fmsg {
+	width: 300px;
+	height: 150px;
+	margin-bottom: 15px;
+	border-radius: 7px;
+}
+
+.submitBtn {
+	width: 100px;
+	height: 30px;
+	outline: 1px solid black;
+	border-radius: 7px;
+	background-color: rgb(124, 255, 124);
+	font-weight: 600;
 }
